@@ -30,7 +30,7 @@ namespace TodoApi.Controllers
 
         //LO mando in conflitto
 
-        public void Nuovol(){}
+        public void NuovoCon(){}
         public void Conflitto()
         {
             // Fatto da Loris
