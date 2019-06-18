@@ -28,6 +28,14 @@ namespace TodoApi.Controllers
 
         }
 
+        //LO mando in conflitto
+
+        public void Conflitto()
+        {
+            // Fatto da Loris
+
+        }
+
         // GET: api/Todo
         // Metodo Select: visualizza tutti gli elementi
         [HttpGet]
