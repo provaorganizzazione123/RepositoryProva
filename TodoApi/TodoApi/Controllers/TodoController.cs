@@ -31,6 +31,13 @@ namespace TodoApi.Controllers
         //LO mando in conflitto
 
         public void NuovoConflitto(){}
+        public void Conflitto()
+        {
+            // Fatto da Loris
+            //Corpo Aggiunto Da Daario
+            int variabile = 0;
+
+        }
 
         // GET: api/Todo
         // Metodo Select: visualizza tutti gli elementi
