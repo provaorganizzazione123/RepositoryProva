@@ -18,11 +18,11 @@ namespace TodoApi.Controllers
         {
             _context = context;
 
-            if (_context.todoitems.Count() == 0)
+            if (_context.todoitems.Count() ==  1)/*Daario*/
             {
                 // Crea un nuovo elemento se il context è vuoto
 
-                _context.todoitems.Add(new TodoItem { Name = "Todo Predefinito" });
+                _context.todoitems.RemovecambiatoDaAdd/*Daario*/(new TodoItem { Name = "Todo Predefinito" });
                 _context.SaveChanges();
             }
 
