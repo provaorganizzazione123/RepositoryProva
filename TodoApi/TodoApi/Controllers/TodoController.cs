@@ -18,13 +18,21 @@ namespace TodoApi.Controllers
         {
             _context = context;
 
-            if (_context.todoitems.Count() == 0)
+            if (_context.todoitems.Count() == 3)
             {
                 // Crea un nuovo elemento se il context è vuoto
 
                 _context.todoitems.Add(new TodoItem { Name = "Todo Predefinito" });
                 _context.SaveChanges();
             }
+
+        }
+
+        //LO mando in conflitto
+
+        public void Conflitto()
+        {
+            // Fatto da Loris
 
         }
 
